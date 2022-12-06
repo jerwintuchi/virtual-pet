@@ -1,2 +1,2 @@
 # virtual-pet
-A virtual pet for desktop using tkinter.
+A virtual pet for desktop to keep you happy! :)
