@@ -1,47 +1,60 @@
-import pyautogui
 import random
 import tkinter as tk
 import os
+import sys
 
 x = 1400
 cycle = 0
 check = 1
-idle_num =[1,2,3,4]
-sleep_num = [10,11,12,13,15]
-walk_left = [6,7]
-walk_right = [8,9]
-event_number = random.randrange(1,3,1)
-impath = 'C:\\Virtual Pets\\Wiggie the Green Alien\\images\\' #name of directory where the .gifs files are located
+idle_num = [1, 2, 3, 4]
+sleep_num = [10, 11, 12, 13, 15]
+walk_left = [6, 7]
+walk_right = [8, 9]
+event_number = random.randrange(1, 3, 1)
 
-#detect path for .exe file
-application_path = os.path.dirname(sys.executable)
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
-#transfer random no. to event
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
+final_path = resource_path(dir_path)
+
+print(final_path)
+# transfer random no. to event
 def event(cycle,check,event_number,x):
 
     if event_number in idle_num:
         check = 0
-        print('idle')
+        #print('idle')
         window.after(400,update,cycle,check,event_number,x) #no. 1,2,3,4 = idle
     elif event_number == 5:
         check = 1
-        print('from idle to sleep')
+        #print('from idle to sleep')
         window.after(100,update,cycle,check,event_number,x) #no. 5 = idle to sleep
     elif event_number in walk_left:
         check = 4
-        print('walking towards left')
+        #print('walking towards left')
         window.after(100,update,cycle,check,event_number,x)#no. 6,7 = walk towards left
     elif event_number in walk_right:
         check = 5
-        print('walking towards right')
+        #print('walking towards right')
         window.after(100,update,cycle,check,event_number,x)#no 8,9 = walk towards right
     elif event_number in sleep_num:
         check  = 2
-        print('sleep')
+        #print('sleep')
         window.after(1000,update,cycle,check,event_number,x)#no. 10,11,12,13,15 = sleep
     elif event_number == 14:
         check = 3
-        print('from sleep to idle')
+        #print('from sleep to idle')
         window.after(100,update,cycle,check,event_number,x)#no. 15 = sleep to idle
 
 #making gif work 
@@ -93,12 +106,12 @@ window = tk.Tk()
 
 
 #call buddy's action gif
-idle = [tk.PhotoImage(file=impath+'w-idle.gif',format = 'gif -index %i' %(i)) for i in range(5)]#idle gif
-idle_to_sleep = [tk.PhotoImage(file=impath+'w-idle-to-sleep.gif',format = 'gif -index %i' %(i)) for i in range(25)]#idle to sleep gif
-sleep = [tk.PhotoImage(file=impath+'w-sleep.gif',format = 'gif -index %i' %(i)) for i in range(3)]#sleep gif
-sleep_to_idle = [tk.PhotoImage(file=impath+'w-sleep-to-idle.gif',format = 'gif -index %i' %(i)) for i in range(25)]#sleep to idle gif
-walk_positive = [tk.PhotoImage(file=impath+'w-walking-left.gif',format = 'gif -index %i' %(i)) for i in range(9)]#walk to left gif
-walk_negative = [tk.PhotoImage(file=impath+'w-walking-right.gif',format = 'gif -index %i' %(i)) for i in range(9)]#walk to right gif
+idle = [tk.PhotoImage(file=final_path+'\\w-idle.gif',format = 'gif -index %i' %(i)) for i in range(5)]#idle gif
+idle_to_sleep = [tk.PhotoImage(file=final_path+'\\w-idle-to-sleep.gif',format = 'gif -index %i' %(i)) for i in range(25)]#idle to sleep gif
+sleep = [tk.PhotoImage(file=final_path+'\\w-sleep.gif',format = 'gif -index %i' %(i)) for i in range(3)]#sleep gif
+sleep_to_idle = [tk.PhotoImage(file=final_path+'\\w-sleep-to-idle.gif',format = 'gif -index %i' %(i)) for i in range(25)]#sleep to idle gif
+walk_positive = [tk.PhotoImage(file=final_path+'\\w-walking-left.gif',format = 'gif -index %i' %(i)) for i in range(9)]#walk to left gif
+walk_negative = [tk.PhotoImage(file=final_path+'\\w-walking-right.gif',format = 'gif -index %i' %(i)) for i in range(9)]#walk to right gif
 
 
 
