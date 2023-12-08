@@ -37,3 +37,7 @@ To convert the script to an executable file, follow these steps: <br>
 ## Resources
 I've used [Piskel](https://www.piskelapp.com/download) for making the gif itself.
 Whenever you want to modify the existing animation gifs, just replace the gif files in the `corgo doggo` directory.
+
+## License
+
+This project is licensed under the GNU License - see the LICENSE file for details.
