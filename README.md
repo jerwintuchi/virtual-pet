@@ -3,10 +3,16 @@ A virtual pet for desktop to keep you happy! :) </br>
 ### Download [link](https://drive.google.com/file/d/1ldZFos3Ighasubmx9M1Ci609_K27W3PU/view?usp=sharing)
 ## Demo
 ![Wiggie Demo](https://github.com/jerwintuchi/virtual-pet/blob/main/images/wiggie-demo.gif)
+## Updated Demo
+https://github.com/jerwintuchi/virtual-pet/assets/95065211/ae892b06-d2fc-41ef-9361-dcd2ac55e78b
 
 
 ## My Workflow
 ### DEVELOPMENT
+
+
+
+
 #### Prerequisites
 
 - Python (I used 3.9.6)
