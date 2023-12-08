@@ -6,8 +6,9 @@ A virtual pet for desktop to keep you happy! :) </br>
 
 
 ## My Workflow
-### Prerequisites
-#### DEVELOPMENT
+### DEVELOPMENT
+#### Prerequisites
+
 - Python (I used 3.9.6)
 - any code editor like **VS Code**
 
