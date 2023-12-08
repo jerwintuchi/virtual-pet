@@ -4,7 +4,11 @@ A virtual pet for desktop to keep you happy! :) </br>
 ## Demo
 ![Wiggie Demo](https://github.com/jerwintuchi/virtual-pet/blob/main/images/wiggie-demo.gif)
 ## Updated Demo
-[![Watch the Demo](https://www.youtube.com/watch?v=CjEoblQZa00)]
+[![Watch the video](https://img.youtube.com/vi/CjEoblQZa00/hqdefault.jpg)](https://www.youtube.com/embed/CjEoblQZa00)
+
+[<img src="https://img.youtube.com/vi/CjEoblQZa00/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/CjEoblQZa00)
+
 
 
 ## My Workflow
