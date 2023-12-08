@@ -4,7 +4,11 @@ A virtual pet for desktop to keep you happy! :) </br>
 ## Demo
 ![Wiggie Demo](https://github.com/jerwintuchi/virtual-pet/blob/main/images/wiggie-demo.gif)
 ## Updated Demo
-https://github.com/jerwintuchi/virtual-pet/assets/95065211/ed3f95d5-b412-4d5f-a42b-2ec3b38774d2
+<video width="630" height="300" src="https://user-images.githubusercontent.com/126239/151127893-5c98ba8d-c431-4a25-bb1f-e0b33645a2b6.mp4](https://github.com/jerwintuchi/virtual-pet/assets/95065211/5e243d87-2a90-4f48-9f3d-668013c98762"></video>
+
+
+
+
 
 
 
