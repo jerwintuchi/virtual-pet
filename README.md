@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 #### Prerequisites
 - auto_py_to_exe 2.34.0
 
-To make convert the script to an executable file, follow these steps:
+To convert the script to an executable file, follow these steps:
 **NOTE: You can change the name of the exe file from the advanced tab `--name` otherwise the default name is just from the .py script**
 1. **Open command prompt** on your search bar type `cmd` and open the command prompt
 2. **Open the auto_py_to_exe gui** while in command prompt type `python -m auto_py_to_exe`
