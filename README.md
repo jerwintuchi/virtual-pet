@@ -1,9 +1,9 @@
 # virtual-pet
 A virtual pet for desktop to keep you happy! :) </br>
+### **New** (Doggo) Download [link](https://drive.google.com/file/d/1ldZFos3Ighasubmx9M1Ci609_K27W3PU/view?usp=sharing)
 ## Demo
 ![Wiggie Demo](https://github.com/jerwintuchi/virtual-pet/blob/main/images/wiggie-demo.gif)
 
-### (Doggo) Download [link](https://drive.google.com/file/d/1ldZFos3Ighasubmx9M1Ci609_K27W3PU/view?usp=sharing)
 
 ## My Workflow
 ### Prerequisites
