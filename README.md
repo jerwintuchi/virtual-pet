@@ -17,8 +17,8 @@ To run the project locally, follow these steps:
 2. **Navigate to the Project Directory:** `cd ../"Virtual Pets"/"corgo doggo"`
 3. **Run the Python Script** `run doggo.py fom the terminal`
 
-#### PRODUCTION
-### Prerequisites
+### PRODUCTION
+#### Prerequisites
 - auto_py_to_exe 2.34.0
 
 To make convert the script to an executable file, follow these steps:
