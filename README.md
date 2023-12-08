@@ -40,4 +40,4 @@ Whenever you want to modify the existing animation gifs, just replace the gif fi
 
 ## License
 
-This project is licensed under the GNU License - see the [LICENSE] (https://github.com/jerwintuchi/virtual-pet/blob/main/LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](https://github.com/jerwintuchi/virtual-pet/blob/main/LICENSE) file for details.
