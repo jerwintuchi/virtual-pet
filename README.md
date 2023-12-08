@@ -26,9 +26,9 @@ To convert the script to an executable file, follow these steps: <br>
 **NOTE: You can change the name of the exe file from the advanced tab `--name` otherwise the default name is just from the .py script**
 1. **Open command prompt** on your search bar type `cmd` and open the command prompt
 2. **Open the auto_py_to_exe gui** while in command prompt type `python -m auto_py_to_exe`
-3. **Configure the Settings** On `Script Location` make sure the path is to the script `doggo.py` like this (../Virtual Pets/corgo doggo/doggo.py)
-   Make Sure the following is selected :
-     One File , Window Based (hide the console)
+3. **Configure the Settings** On `Script Location` make sure the path is to the script `doggo.py` like this (../Virtual Pets/corgo doggo/doggo.py) <br>
+   Make Sure the following is selected :<br>
+     One File , Window Based (hide the console) <br>
    Next, click the dropdown on `Icon` tag and select `doggo.ico` from the `/corgo doggo` dir
 4. **Add the Animation files** click the dropdown on `Add Files` tab, then click Add files and select all the gifs inside the `/corgo doggo` directory
 5. **Convert the script to exe** click the `Convert .py to .exe` button
