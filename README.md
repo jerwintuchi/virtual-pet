@@ -1,6 +1,5 @@
 # virtual-pet
 A virtual pet for desktop to keep you happy! :) </br>
-### Download [link](https://drive.google.com/file/d/1ldZFos3Ighasubmx9M1Ci609_K27W3PU/view?usp=sharing)
 
 ## Updated Demo
 <video width="630" height="300" src="https://user-images.githubusercontent.com/126239/151127893-5c98ba8d-c431-4a25-bb1f-e0b33645a2b6.mp4](https://github.com/jerwintuchi/virtual-pet/assets/95065211/5e243d87-2a90-4f48-9f3d-668013c98762"></video>
