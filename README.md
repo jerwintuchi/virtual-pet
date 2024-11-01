@@ -25,7 +25,7 @@ A virtual pet for desktop to keep you happy! :) </br>
 To run the project locally, follow these steps:
 
 1. **Clone the Repository:** `git clone https://github.com/jerwintuchi/virtual-pet`
-2. **Navigate to the Project Directory:** `cd ../"Virtual Pets"/"corgo doggo"`
+2. **Navigate to the Project Directory:** `cd ../virtual-pet/"corgo doggo"`
 3. **Run the Python Script** `run doggo.py fom the terminal`
 
 ### PRODUCTION
